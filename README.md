@@ -7,7 +7,7 @@ This repository provides an end-to-end pipeline combining **Ultralytics YOLOv8**
 
 ## Environment & Dependencies
 
-### **Tested Environment**
+### **Tested Environment
 | Component | Version |
 |----------|---------|
 | OS | Windows 10 / 11 |
@@ -20,7 +20,7 @@ This repository provides an end-to-end pipeline combining **Ultralytics YOLOv8**
 
 ## Step-by-Step Installation 
 
-### Download YOLOv8 Model Weights**
+### Download YOLOv8 Model Weights
 The default model used in this project is yolov8l.pt.
 
 Please download it from the official Ultralytics resources (YOLOv8 weights section).
@@ -28,25 +28,25 @@ https://docs.ultralytics.com/models/yolov8/#detection-coco
 
 You may also use other YOLOv8 variants (yolov8n.pt, yolov8x.pt) or your own trained model.
 
-### Create Conda Environment**
+### Create Conda Environment
 ```bash
 conda create -n yolov8 python=3.8 -y
 ````
 
-### Activate the Environment**
+### Activate the Environment
 
 ```bash
 conda activate yolov8
 ```
 
-### Install Dependencies**
+### Install Dependencies
 
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Verify Installation**
+### Verify Installation
 
 ```bash
 python - <<EOF
@@ -63,13 +63,13 @@ If no errors occur, your environment is ready.
 
 ## Quick Start
 
-### **Run Detection + Tracking**
+### **Run Detection + Tracking
 
 ```bash
 python predict.py model=yolov8l.pt source="clip_1.mp4" show=True
 ```
 
-### **Run without GUI display**
+### **Run without GUI display
 
 ```bash
 python predict.py source="clip_1.mp4" show=False
@@ -90,7 +90,7 @@ Example CSV structure:
 ## YOLOv8 Model Variants
 
 Different YOLOv8 model sizes can be selected depending on speed vs accuracy needs:
-https://docs.ultralytics.com/models/yolov8/#obb-dotav1
+https://docs.ultralytics.com/models/yolov8/
 
 | Model                   | Speed     | Accuracy        | Recommended Use         |
 | ----------------------- | --------- | --------------- | ----------------------- |
