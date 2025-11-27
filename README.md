@@ -7,7 +7,7 @@ This repository provides an end-to-end pipeline combining **Ultralytics YOLOv8**
 
 ## Environment & Dependencies
 
-### **Tested Environment
+### Tested Environment
 | Component | Version |
 |----------|---------|
 | OS | Windows 10 / 11 |
@@ -63,19 +63,19 @@ If no errors occur, your environment is ready.
 
 ## Quick Start
 
-### **Run Detection + Tracking
+### Run Detection + Tracking
 
 ```bash
 python predict.py model=yolov8l.pt source="clip_1.mp4" show=True
 ```
 
-### **Run without GUI display
+### Run without GUI display
 
 ```bash
 python predict.py source="clip_1.mp4" show=False
 ```
 
-### **Output**
+### Output
 
 * Processed video stream (optional visualization)
 * `output.csv` (tracking results with bounding boxes and identity numbers)
