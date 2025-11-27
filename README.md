@@ -18,7 +18,15 @@ This repository provides an end-to-end pipeline combining **Ultralytics YOLOv8**
 
 ---
 
-## Step-by-Step Installation (Conda)
+## Step-by-Step Installation 
+
+### Download YOLOv8 Model Weights**
+The default model used in this project is yolov8l.pt.
+
+Please download it from the official Ultralytics resources (YOLOv8 weights section).
+https://docs.ultralytics.com/models/yolov8/#detection-coco
+
+You may also use other YOLOv8 variants (yolov8n.pt, yolov8x.pt) or your own trained model.
 
 ### Create Conda Environment**
 ```bash
@@ -112,24 +120,6 @@ Make sure:
 * Class labels match your dataset
 * DeepSORT appearance features may need adjustments for very different objects
 
----
-
-## Project Structure
-
-```text
-.
-├── predict.py              # Main script (YOLOv8 + DeepSORT + CSV export)
-├── requirements.txt        # Python dependencies
-├── README.md               # Documentation
-└── deep_sort_pytorch/      # DeepSORT implementation
-    ├── deep_sort.py
-    ├── utils/
-    │   └── parser.py
-    └── configs/
-        └── deep_sort.yaml
-```
-
----
 
 
 ## Acknowledgements
