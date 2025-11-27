@@ -1,0 +1,7 @@
+# Ignore large weight files
+*.pt
+
+# YOLO / training outputs
+runs/
+__pycache__/
+*.log
