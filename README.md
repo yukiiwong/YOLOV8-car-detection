@@ -82,6 +82,7 @@ Example CSV structure:
 ## YOLOv8 Model Variants
 
 Different YOLOv8 model sizes can be selected depending on speed vs accuracy needs:
+https://docs.ultralytics.com/models/yolov8/#obb-dotav1
 
 | Model                   | Speed     | Accuracy        | Recommended Use         |
 | ----------------------- | --------- | --------------- | ----------------------- |
