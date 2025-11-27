@@ -127,6 +127,7 @@ Make sure:
 * **Ultralytics YOLOv8** — [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 * **DeepSORT Pytorch** — [https://github.com/ZQPei/deep_sort_pytorch](https://github.com/ZQPei/deep_sort_pytorch)
 * **Muhammad Moin** — [https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking)
+
 This project is intended for academic and research purposes.
 
 ---
