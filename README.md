@@ -49,12 +49,12 @@ pip install -r requirements.txt
 ### Verify Installation
 
 ```bash
-python - <<EOF
+python 
 import torch, ultralytics, cv2
 print("Torch:", torch.__version__)
 print("YOLOv8:", ultralytics.__version__)
 print("CUDA available:", torch.cuda.is_available())
-EOF
+
 ```
 
 If no errors occur, your environment is ready.
